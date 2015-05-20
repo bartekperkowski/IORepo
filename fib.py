@@ -5,9 +5,9 @@ def fibonacci2(n):
     while len(lista) < n:
         a, b = b, a+b
         lista.append(a)
-    print(lista)
+    return lista
 
 
 n = int(input())
 
-fibonacci2(n)
+print(fibonacci2(n))
